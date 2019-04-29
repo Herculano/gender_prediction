@@ -34,8 +34,8 @@ defmodule GenderPrediction.MixProject do
   defp package() do
     [
       name: "Gender Prediction - BR",
-      licenses: ["Apache 2.0"]
-    # links: %{"GitHub" => "https://github.com/elixir-ecto/postgrex"}
+      licenses: ["Apache 2.0"],
+      links: %{"GitHub" => "https://github.com/Herculano/gender_prediction"}
     ]
   end
 end
