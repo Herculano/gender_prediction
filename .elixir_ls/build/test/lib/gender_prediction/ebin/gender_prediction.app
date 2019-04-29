@@ -1,5 +1,5 @@
 {application,gender_prediction,
-             [{applications,[kernel,stdlib,elixir,logger,jason,httpotion]},
+             [{applications,[kernel,stdlib,elixir,logger,jason,httpoison]},
               {description,"Predicts brazilian gender from name based in stats from IBGE"},
               {modules,['Elixir.GenderPrediction',
                         'Elixir.GenderPrediction.Application',

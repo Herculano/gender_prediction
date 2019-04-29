@@ -25,7 +25,7 @@ defmodule GenderPrediction.MixProject do
   defp deps do
     [
       # {:dep_from_hexpm, "~> 0.3.0"},
-      {:httpotion, "~> 3.1.0"},
+      {:httpoison, "~> 1.4"},
       {:jason, "~> 1.1"},
       {:ex_doc, "~> 0.14", only: :dev, runtime: false}
     ]
@@ -33,7 +33,7 @@ defmodule GenderPrediction.MixProject do
 
   defp package() do
     [
-      name: "Gender Prediction - BR",
+      name: "gender_prediction",
       licenses: ["Apache 2.0"],
       links: %{"GitHub" => "https://github.com/Herculano/gender_prediction"}
     ]

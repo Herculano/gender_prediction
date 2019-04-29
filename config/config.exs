@@ -2,9 +2,6 @@
 # and its dependencies with the aid of the Mix.Config module.
 use Mix.Config
 
-config :gender_prediction,
-  stats_base_url: "https://servicodados.ibge.gov.br/api/v2/censos/nomes"
-
 
 # This configuration is loaded before any dependency and is restricted
 # to this project. If another project depends on this project, this
