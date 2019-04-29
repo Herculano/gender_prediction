@@ -7,7 +7,9 @@ based in stats from IBGE
  `Params: name`
  `Returns: :male, :female, :undefined`
 
- Eg: ```
+ Eg: 
+ 
+ ```
   GenderPrediction.get_gender_name(Paulo Marques) # Returns :male
  ```
 
